@@ -1,0 +1,8 @@
+name = "hanh-trinh-di-san-route"
+main = "index.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+routes = [
+  { pattern = "wifinance.com.vn/hanh-trinh-di-san", zone_name = "wifinance.com.vn" },
+  { pattern = "wifinance.com.vn/hanh-trinh-di-san/*", zone_name = "wifinance.com.vn" },
+]
